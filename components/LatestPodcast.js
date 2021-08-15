@@ -334,13 +334,6 @@ const LPodcasts = () => {
           <img alt="img" src={mic.src} className="object-fit " />
         </div>
       </div>
-      <div className="font-normal w-[90%] flex justify-between mx-auto my-[4rem]">
-        <h3 className="cursor-pointer">2021 © Founders Mafia</h3>
-        <h3 className="cursor-pointer hidden lg:inline-flex">
-          helo@foundersmafia.org
-        </h3>
-        <h3>Privacy Policy</h3>
-      </div>
     </div>
   );
 };
