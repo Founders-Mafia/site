@@ -10,12 +10,14 @@ const Welcome = () => {
   return (
     <div className="flex flex-col items-center mt-[5rem] ">
       <h3
+        data-aos-once="true"
+        data-aos="fade-in"
         className="font-semibold text-[34px] lg:text-[#0075FF]"
         style={{ fontSize: "clamp(23px, 3vw, 35px)" }}
       >
         Welcome to
       </h3>
-      <div>
+      <div data-aos-once="true" data-aos="fade-in">
         <h1
           className="font-extrabold flex justify-center text-center"
           style={{
@@ -37,7 +39,11 @@ const Welcome = () => {
         <p>of remarkable startups</p>
         <p>on your finger tips</p>
       </div>
-      <div className="lg:flex w-full  lg:mt-[8rem] lg:w-[80%] justify-between ">
+      <div
+        data-aos-once="true"
+        data-aos="fade-right"
+        className="lg:flex w-full  lg:mt-[8rem] lg:w-[80%] justify-between "
+      >
         <div className="w-full lg:w-[70%] mt-4">
           <span className="relative lg:w-[100%] flex items-end justify-end lg:justify-start ">
             <img

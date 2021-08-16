@@ -76,18 +76,30 @@ const LPodcasts = () => {
       img: `${racist.src}`,
     },
   ];
+
+  // data-aos-once="true"
+  // data-aos="fade-right"
+
   return (
     <div className="mt-[20rem] w-full">
       <h2 className="w-4/5 mx-auto font-normal text-[2rem] lg:hidden">
         Our Latest Episodes
       </h2>
       {/* <ScrollAnimation animateIn="fadeInDown" animateOnce="true"> */}
-      <h2 className="w-max mx-auto font-normal text-[2rem] hidden lg:block">
+      <h2
+        data-aos-once="true"
+        data-aos="zoom-in-up"
+        className="w-max mx-auto font-normal text-[2rem] hidden lg:block"
+      >
         Get inspired with our latest episodes out there
       </h2>
       {/* </ScrollAnimation> */}
       {/* <ScrollAnimation animateIn="fadeInUp"> */}
-      <div className="whitespace-nowrap space-x-4 w-4/5 lg:w-[90%] mt-[2rem] lg:mt-[5rem] mx-auto">
+      <div
+        className="whitespace-nowrap space-x-4 w-4/5 lg:w-[90%] mt-[2rem] lg:mt-[5rem] mx-auto"
+        data-aos-once="true"
+        data-aos="fade-left"
+      >
         <img
           alt="img"
           src={pic1.src}
@@ -156,7 +168,11 @@ const LPodcasts = () => {
         </div>
         {/* </ScrollAnimation> */}
         {/* <ScrollAnimation animateIn="fadeInRight" animateOnce="true"> */}
-        <div className="lg:mt-0 mt-8 w-[90%] mx-auto lg:mx-[0rem] lg:max-w-[600px]  max-w-[451.8px]">
+        <div
+          data-aos-once="true"
+          data-aos="fade-up"
+          className="lg:mt-0 mt-8 w-[90%] mx-auto lg:mx-[0rem] lg:max-w-[600px]  max-w-[451.8px]"
+        >
           <div className="bg-[#212121]   mx-auto rounded-md p-[0.5rem]">
             {/* podbox */}
             <h3 className="mb-2">Short talk with a great founder Kevin Ross</h3>
